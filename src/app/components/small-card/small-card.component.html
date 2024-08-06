@@ -1,0 +1,11 @@
+<div class="small-card">
+  <div class="small-card__img">
+    <img [src]="car?.photo" [alt]="car?.name" />
+  </div>
+  <div class="small-card__title">
+    <h2>
+      {{ car?.title }}
+    </h2>
+    <a [routerLink]="['/datasheet', car?.id ?? 0]">Mais detalhes</a>
+  </div>
+</div>

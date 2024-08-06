@@ -1,0 +1,15 @@
+<h1><a routerLink="/home">Voltar</a></h1>
+<div *ngIf="car" class="car-detail">
+  <h2>{{ car.name }}</h2>
+  <p><strong>Título:</strong> {{ car.title }}</p>
+  <p><strong>Descrição:</strong> {{ car.description || "Não disponível" }}</p>
+  <p><strong>Potência:</strong> {{ car.power }}</p>
+  <p><strong>Preço:</strong> {{ car.price }}</p>
+  <p><strong>Tipo de Combustível:</strong> {{ car.fuelType }}</p>
+  <p><strong>Ano:</strong> {{ car.year }}</p>
+  <img
+    [src]="car.photo"
+    alt="{{ car.name }}"
+    style="width: 300px; height: auto"
+  />
+</div>

@@ -1,0 +1,9 @@
+<div class="body">
+  <h1>Melhores carros Custo X benefício</h1>
+  <div class="content" *ngIf="cars">
+    <app-big-card [car]="mainCar"></app-big-card>
+    <div class="content__small-cards">
+      <app-small-card *ngFor="let item of cars" [car]="item"> </app-small-card>
+    </div>
+  </div>
+</div>

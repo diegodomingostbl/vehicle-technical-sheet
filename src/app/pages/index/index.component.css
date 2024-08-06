@@ -1,0 +1,16 @@
+.content {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.content__small-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  justify-content: space-around;
+}
+
+h1 {
+  text-align: center;
+}

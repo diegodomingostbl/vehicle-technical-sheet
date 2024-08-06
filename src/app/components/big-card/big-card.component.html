@@ -1,0 +1,16 @@
+<div class="big-card">
+  <div class="big-card__img">
+    <img [src]="car?.photo" [alt]="car?.name" />
+  </div>
+  <div>
+    <h2>
+      {{ car?.title }}
+    </h2>
+  </div>
+  <div>
+    <p>
+      {{ car?.description }}
+      <a [routerLink]="['/datasheet', car?.id ?? 0]">Mais detalhes</a>
+    </p>
+  </div>
+</div>

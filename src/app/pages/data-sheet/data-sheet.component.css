@@ -1,0 +1,43 @@
+/* Estilo para o container principal da página de detalhes */
+.car-detail {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #444; /* Cor de borda mais clara para contraste */
+  border-radius: 8px;
+  background-color: #333; /* Fundo escuro para o container */
+}
+
+/* Estilo para o título da página */
+.car-detail h2 {
+  font-size: 24px;
+  color: #f0f0f0; /* Cor clara para contraste com o fundo escuro */
+  margin-bottom: 10px;
+}
+
+/* Estilo para os parágrafos com detalhes do carro */
+.car-detail p {
+  font-size: 16px;
+  color: #ddd; /* Cor clara para o texto */
+  margin: 5px 0;
+}
+
+/* Estilo para o botão de voltar */
+a.router-link {
+  text-decoration: none;
+  color: #1e90ff; /* Cor azul para o link */
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* Estilo para o link de voltar quando em hover */
+a.router-link:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para a imagem do carro */
+.car-detail img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra mais escura para maior contraste */
+}
